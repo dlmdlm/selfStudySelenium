@@ -34,7 +34,7 @@ class TestNewCredit(unittest.TestCase):
         # TODO: 注意不要把产品地址提交到GitHub上了
         self.driver.get("http://saas.chedai0.com/admin/index/index.html")  # 在浏览器打开页面
         self.driver.implicitly_wait(5)
-        self.login("hzyw", "1234567")  # TODO: 注意不要把用户名密码提交到GitHub上了
+        self.login("****", "1#####")  # TODO: 注意不要把用户名密码提交到GitHub上了
 
     def login(self, username, password):
         """登录
